@@ -1,0 +1,73 @@
+{
+    "version": "1.1.2",
+    "project": {
+        "name": "action",
+        "directory": "/Users/vlavrov/workspace/github.com/lavrov/scala-action/action",
+        "workspaceDir": "/Users/vlavrov/workspace/github.com/lavrov/scala-action",
+        "sources": [
+            "/Users/vlavrov/workspace/github.com/lavrov/scala-action/action/src"
+        ],
+        "dependencies": [
+            
+        ],
+        "classpath": [
+            "/Users/vlavrov/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.2/scala-library-2.13.2.jar"
+        ],
+        "out": "/Users/vlavrov/workspace/github.com/lavrov/scala-action/.bloop/out/action",
+        "classesDir": "/Users/vlavrov/workspace/github.com/lavrov/scala-action/.bloop/out/action/classes",
+        "resources": [
+            "/Users/vlavrov/workspace/github.com/lavrov/scala-action/action/resources"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.13.2",
+            "options": [
+                
+            ],
+            "jars": [
+                "/Users/vlavrov/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.2/scala-library-2.13.2.jar",
+                "/Users/vlavrov/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.14.1/jline-3.14.1.jar",
+                "/Users/vlavrov/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.2/scala-reflect-2.13.2.jar",
+                "/Users/vlavrov/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar",
+                "/Users/vlavrov/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.2/scala-compiler-2.13.2.jar"
+            ]
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "options": [
+                    "-Duser.dir=/Users/vlavrov/workspace/github.com/lavrov/scala-action"
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.2",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/Users/vlavrov/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.2/scala-library-2.13.2.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/Users/vlavrov/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.2/scala-library-2.13.2-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

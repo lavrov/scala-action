@@ -1,0 +1,7 @@
+name: 'Scala action'
+description: 'Create GitHub Action with Scala'
+inputs: {}
+outputs: {}
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
